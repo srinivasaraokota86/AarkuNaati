@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kuppili Sindhu — Portfolio</title>
+  <meta name="description" content="Portfolio of Kuppili Sindhu — Frontend / Acumatica Developer" />
+  <style>
+    :root{
+      --bg:#f4f7fc;
+      --card:#ffffff;
+      --accent:#005f73;
+      --secondary:#0a9396;
+      --muted:#6b7280;
+      --radius:14px;
+      --max-width:1000px;
+      font-family:'Poppins', system-ui, sans-serif;
+      color:#0b1220;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#e9f5f6);}
+    .wrap{max-width:var(--max-width);margin:34px auto;padding:28px;display:grid;grid-template-columns:310px 1fr;gap:24px;}
+
+    .card{background:var(--card);border-radius:var(--radius);padding:24px;box-shadow:0 6px 20px rgba(0,0,0,0.08);}
+    .profile-pic{width:120px;height:120px;border-radius:18px;object-fit:cover;background:linear-gradient(135deg,var(--accent),var(--secondary));display:block;margin:0 auto 12px;box-shadow:0 6px 20px rgba(0,0,0,0.15)}
+    .name{text-align:center;font-size:22px;font-weight:700;margin-bottom:6px;color:var(--accent)}
+    .sub{text-align:center;font-size:13px;color:var(--muted);margin-bottom:12px}
+
+    .section-title{font-size:13px;color:var(--secondary);text-transform:uppercase;letter-spacing:1px;margin:14px 0 8px;font-weight:600}
+    .contact{font-size:13px;color:#0b1220;margin:8px 0}
+    .contact a{color:var(--accent);text-decoration:none}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:rgba(10,147,150,0.1);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--accent)}
+
+    .hero{display:flex;align-items:flex-start;gap:18px}
+    .headline{font-size:24px;font-weight:700;margin:0;color:var(--accent)}
+    .location{color:var(--muted);font-size:14px}
+    .summary{margin-top:10px;font-size:15px;color:#162330;line-height:1.5}
+
+    .section{margin-top:22px}
+    .job{padding:16px;border-radius:12px;background:linear-gradient(180deg,rgba(10,147,150,0.05),rgba(0,95,115,0.03));border:1px solid rgba(0,95,115,0.1)}
+    .job h4{margin:0;font-size:16px;color:var(--accent)}
+    .job .meta{font-size:13px;color:var(--muted);margin-top:6px}
+    .bullets{margin:10px 0 0;padding-left:18px}
+    .bullets li{margin-bottom:8px}
+
+    .projects{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .project-card{padding:16px;border-radius:12px;background:var(--card);border:1px solid rgba(0,0,0,0.05);transition:all .3s ease;cursor:pointer;}
+    .project-card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,95,115,0.1)}
+    .project-card strong{color:var(--secondary);}
+    .cta{display:inline-block;margin-top:10px;padding:10px 16px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;transition:background .3s ease;}
+    .cta:hover{background:var(--secondary)}
+
+    footer{grid-column:1/-1;margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media(max-width:880px){.wrap{grid-template-columns:1fr;padding:16px}.hero{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <aside class="card">
+      <img alt="profile" class="profile-pic" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><rect width='100%' height='100%' rx='18' fill='%23005f73'/><text x='50%' y='53%' font-size='90' fill='white' font-family='Arial' font-weight='700' text-anchor='middle' alignment-baseline='middle'>KS</text></svg>" />
+      <div class="name">Kuppili Sindhu</div>
+      <div class="sub">Frontend Developer • Acumatica ERP • .NET</div>
+
+      <div class="section-title">Contact</div>
+      <div class="contact">
+        Parvathipuram, Andhra Pradesh<br>
+        <a href="mailto:sindhukuppili777@gmail.com">sindhukuppili777@gmail.com</a><br>
+        +91 90147 72951<br>
+        <a href="https://linkedin.com/in/sindhu-kuppili-447216261" target="_blank" rel="noopener">linkedin.com/in/sindhu-kuppili-447216261</a>
+      </div>
+
+      <div class="section-title">Technical Skills</div>
+      <div class="skills">
+        <span class="chip">Python</span>
+        <span class="chip">C#.NET</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">ReactJS</span>
+        <span class="chip">MS SQL Server</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">Acumatica ERP</span>
+        <span class="chip">REST API</span>
+        <span class="chip">Postman</span>
+        <span class="chip">ExpressJs</span>
+        <span class="chip">Mongo DB</span>
+        <span class="chip">WEB Developer</span>
+  
+
+      </div>
+
+      <div class="section-title">Certifications</div>
+      <div style="font-size:13px;color:var(--muted);line-height:1.4">
+        MERN Stack training — VECTOR Institute (ongoing)
+      </div>
+    </aside>
+
+    <section>
+      <div class="card">
+        <div class="hero">
+          <div>
+            <h1 class="headline">Kuppili Sindhu</h1>
+            <div class="location">Parvathipuram, Andhra Pradesh</div>
+          </div>
+        </div>
+
+        <p class="summary">I am a Frontend developer with hands-on experience in Acumatica ERP customizations, API integrations, and full-stack projects. I enjoy building engaging, efficient, and responsive web applications using HTML, CSS, JavaScript, and React, and connecting them to powerful backend systems like MySQL and SQL Server.</p>
+
+        <div class="section">
+          <div class="section-title">Experience — ERPXPERT Technologies</div>
+          <div class="job">
+            <h4>Acumatica Developer | ERPXPERT Technologies <span style="float:right;font-size:13px;color:var(--muted)">Nov 2023 – Present</span></h4>
+            <div class="meta">Full-stack development and Acumatica ERP Customizations</div>
+            <ul class="bullets">
+              <li>Customized Acumatica ERP for client-specific requirements.</li>
+              <li>Developed and implemented REST API integrations.</li>
+              <li>Set up and configured company profiles in Acumatica.</li>
+              <li>Worked on databases, time activities, and cloud-based ERP solutions.</li>
+              <li>Designed and developed a company website.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">Projects</div>
+          <div class="projects">
+            <div class="project-card">
+              <strong>Convert Purchase to Fixed Assets (Acumatica)</strong>
+              <p style="font-size:13px;color:var(--muted)">Enabled custom field <b>UsrRefNbr</b> to group purchases and implemented C# logic to create a single fixed asset during Process action.</p>
+            </div>
+            <div class="project-card">
+              <strong>Vendor Cost Mapping – Sales Order Screen</strong>
+              <p style="font-size:13px;color:var(--muted)">Pulled last vendor price from Stock Item Vendor tab using DAC Extensions, BQL, PXSelector, and FieldUpdated event.</p>
+            </div>
+            <div class="project-card">
+              <strong>Bulk Inventory Update via Excel</strong>
+              <p style="font-size:13px;color:var(--muted)">Updated inventory descriptions & categories using Excel and Acumatica Import Scenarios with Data Providers.</p>
+            </div>
+            <div class="project-card">
+              <strong>ERP Xpert Technologies Website</strong>
+              <p style="font-size:13px;color:var(--muted)">Developed a modern, responsive corporate website using HTML, CSS, JavaScript, and Bootstrap.</p>
+            </div>
+            <div class="project-card">
+              <strong>REST API Integration (Acumatica)</strong>
+              <p style="font-size:13px;color:var(--muted)">Implemented authentication, CRUD operations, and automated sync using Acumatica REST API + Postman + C#.</p>
+            </div>
+            <div class="project-card">
+              <strong>Todo Tasks App</strong>
+              <p style="font-size:13px;color:var(--muted)">Frontend app using Local & Session Storage for efficient task management.</p>
+            </div>
+            <div class="project-card">
+              <strong>Employee Management System (Python + MySQL)</strong>
+              <p style="font-size:13px;color:var(--muted)">Menu-driven system to manage employees, built using Python, MySQL, and connector library.</p>
+            </div>
+            <div class="project-card">
+              <strong>Utility Web Apps</strong>
+              <p style="font-size:13px;color:var(--muted)">Stopwatch, Calculator, Counter App developed using HTML, CSS, JavaScript.</p>
+            </div>
+           
+          </div>
+            <div class="project-card">
+              <strong>Employee Management System</strong>
+              <p style="font-size:13px;color:var(--muted)">Developed using Python and MySQL to handle employee records, authentication, and performance tracking.</p>
+            </div>
+                                    </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">Education</div>
+          <div class="job">
+            <h4>Master of Computer Applications (MCA)</h4>
+            <div class="meta">Dr. Lankapalli Bullayya College, Visakhapatnam — 2023 • CGPA: 8.40</div>
+          </div>
+          <div class="job">
+            <h4>Bachelor’s Degree</h4>
+            <div class="meta">Gayatri Degree College — 2019 • CGPA: 8.51</div>
+          </div>
+        </div>
+
+              </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Kuppili Sindhu — Portfolio | Designed with using HTML & CSS. Confidential — Do not share publicly.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
