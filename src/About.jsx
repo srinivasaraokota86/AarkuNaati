@@ -62,7 +62,7 @@ function About() {
         <div className="our-story-card">
           <h2 className="section-heading">Our Story</h2>
           <p>
-            Founded in 2018, <strong>FreshFruitHub</strong> began with a simple mission: bringing naturally grown, chemical-free fruits directly from farms to families. What started as a small local fruit stall has now grown into a trusted platform delivering handpicked, premium-quality fruits across India.
+            Founded in 2026, <strong>FreshProductHub</strong> began with a simple mission: bringing naturally grown, chemical-free products directly from farms to families. What started as a small local products stall has now grown into a trusted platform delivering handpicked, premium-quality products across India.
           </p>
         </div>
       </div>

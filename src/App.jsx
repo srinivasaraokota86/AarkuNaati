@@ -107,7 +107,7 @@ function App() {
       <h2 className="brand-title mb-0">Araku Naati</h2>
       </div>
       <p className="tagline mb-0 small text-center">
-        Your one-stop shop for fresh and organic fruits
+        Your one-stop shop for fresh and organic products
       </p>
     </div>
 
